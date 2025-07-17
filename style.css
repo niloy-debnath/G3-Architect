@@ -102,3 +102,35 @@ nav div a {
     border-radius: 10px;
     width: 100%;
 }
+
+/* Main */
+.quick-list{
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.quick-list-title{
+    font-size: 2.9em;
+    font-weight: 500;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+#span1{
+    color: #131313;
+    font-weight: bold;
+}
+#span2{
+    color: #FF900E;
+    font-weight: bold;
+}
+.quick-list-description{
+    font-weight: 400;
+    font-size: 1em;
+}
