@@ -280,3 +280,23 @@ nav div a {
 /* .sponspors-img{
     width: 166px ;
 } */
+
+/* footer */
+
+.footer {
+  background-color: #fff4e8; /* soft peach background */
+  padding: 20px;
+  /* border-radius: 8px; */
+  text-align: center;
+  margin: 100px auto; /* add spacing above and below */
+  max-width: 1240px; /* match fixed-width layout if needed */
+}
+
+.footer-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+
+  color: #424242; /* dark text for contrast */
+  margin: 0;
+}
