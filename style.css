@@ -134,3 +134,149 @@ nav div a {
     font-weight: 400;
     font-size: 1em;
 }
+
+/* feature */
+
+.features{
+    gap: 145px;
+    margin-top: 70px;
+}
+.feature-title{
+    border-left: 5px ;
+    border-left: 5px solid #FF900E;
+    padding-left: 5px;
+    font-size: 2.9em;
+    margin-top: 0;
+}
+
+.feature-description{
+    font-weight: 400;
+    font-size: 16;
+}
+
+.feature-card{
+    border-radius: 5px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.feature-card h2{
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.feature-card p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #727272;
+}
+.feature-left, .feature-right{
+    flex: 1;
+    /* border: 3px solid red; */
+}
+
+.feature-right img{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.badge{
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-badge{
+    font-size: 4.0625em;
+    /* margin-left: -100px; */
+}
+
+#experience-year{
+    font-size: 1.56em;
+}
+
+/* Cards */
+.card-section{
+    margin-top: 200px;
+}
+.card-title{
+    font-size: 2.8em;
+}
+.card-description{
+    width: 542px;
+    font-size: 1em;
+    font-weight: 400;
+}
+.card-container{
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card h3{
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2.8em;
+    color: #424242;
+}
+
+.card h5{
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #727272;
+}
+
+
+/* Sponspors */
+
+.sponspors-section{
+    /* text-align: center; */
+    /* border: 3px solid red; */
+}
+
+.sponspors-heading{
+    text-align: center;
+    width: 542px;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+.sponspors-title{
+    font-size: 2.8em;
+    margin: 0;
+    
+}
+
+.sponspors-description{
+    font-size: 1em;
+}
+
+.sponspors-img{
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 100px; */
+    filter: grayscale(100%);
+    width: 100%;
+    margin-top: none;
+}
+
+/* .sponspors-img{
+    width: 166px ;
+} */
